@@ -1,0 +1,116 @@
+[[0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 0, 0, (0. + 0.5*1j)* CTH13* CTH23* Enodwr* (Ensquare + m3)* (-1. + (np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(
+a)-1j*np.sin(a))* STH13, Enodwr* (np.cos(2*a)-1j*np.sin(2*a)) *(angle1* angle2* angle3* Ensquare +  angle1* angle2* angle3* m2 - angle2* 
+Ensquare* (np.cos(2*a)+1j*np.sin(2*a)) + angle1* angle6* Ensquare* (np.cos(2*a)+1j*np.sin(2*a)) + angle1* angle6* m1* (
+np.cos(2*a)+1j*np.sin(2*a))- angle2* m3* (np.cos(2*a)+1j*np.sin(2*a)) + angle5* ((-1.* angle1* + 1.* angle3)* Ensquare - angle1* m2 + angle3* 
+m3)* (np.cos(2*a)+1j*np.sin(2*a)) + angle4* (angle2* angle3* (Ensquare + m1) + angle5* (-Ensquare - m1)* (np.cos(2*a)+1j*np.sin(2*a)) + 
+angle6* (Ensquare + m2)* (np.cos(2*a)+1j*np.sin(2*a))) + CTH12* CTH23* (2*m1 - 2*m2)* (np.cos(a)+1j*np.sin(a))* STH12* STH13* STH23 - 1.* (
+np.cos(2*a)+1j*np.sin(2*a))* En* VCC), Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (CTH12* (angle6* ( m1 - m2) + angle3* (-1.*m1 + 1. *m2))* (np.cos(
+a)+1j*np.sin(a))* STH12* STH13 + angle4* CTH23* (angle2* (1.* Ensquare +  m1) + (- Ensquare -  m2)* (np.cos(2*a)+1j*np.sin(2*a)))* STH23 + 
+CTH23* (angle5* (Ensquare + m3)* (np.cos(2*a)+1j*np.sin(2*a)) + angle1* (angle2* ( Ensquare +m2) + (-Ensquare - m1)* (
+np.cos(2*a)+1j*np.sin(2*a))))* STH23), CTH13* Enodwr* (np.cos(a)-1j*np.sin(a))* (CTH23* (-angle4* m1 - angle1* m2 + 0.5 *m3 + Ensquare* (0.5 - 1.* angle1 - angle4 + 0.5* (np.cos(2*a)+1j*np.sin(2*a))) + 0.5* m3* (np.cos(2*a)+1j*np.sin(2*a)))* STH13 + CTH12* (m1 - m2)* (np.cos(a)+1j*np.sin(a))* STH12* STH23), (0. - 1.* 1j)* CTH13* Enodwr* (Ensquare + m3)* (-1. + 1.* (np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13* STH23, 0],
+
+[0, 0, 0, (0. + 0.5* 1j)* CTH13* Enodwr* (Ensquare + m3) *(-1. + 1.* (np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13* STH23,
+Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (CTH12* (angle6* ( m1 -  m2) + angle3* (- m1 + m2))* (np.cos(a)+1j*np.sin(a))* STH12* STH13 
++ angle4* CTH23* (angle2* ( Ensquare + m1) + (- Ensquare -  m2)* (np.cos(2*a)+1j*np.sin(2*a)))* STH23 + CTH23* (angle5* (
+Ensquare + m3)* (np.cos(2*a)+1j*np.sin(2*a)) + angle1* (angle2* ( Ensquare +  m2) + (-Ensquare -  m1)* (
+np.cos(2*a)+1j*np.sin(2*a))))* STH23), Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (angle1* angle2* angle6* Ensquare +  angle1* angle2*
+angle6* m2 -  angle2* Ensquare* (np.cos(2*a)+1j*np.sin(2*a)) + angle1* angle3* Ensquare* (np.cos(2*a)+1j*np.sin(2*a)) + angle1*
+angle3* m1* (np.cos(2*a)+1j*np.sin(2*a)) -  angle2* m3* (np.cos(2*a)+1j*np.sin(2*a)) + angle5* (angle1* (- Ensquare -  m2) + angle6*
+(Ensquare +  m3))* (np.cos(2*a)+1j*np.sin(2*a)) + angle4* (angle2* angle6* (Ensquare +  m1) + angle5* (-Ensquare - m1)*
+(np.cos(2*a)+1j*np.sin(2*a)) + angle3* ( Ensquare +  m2)* (np.cos(2*a)+1j*np.sin(2*a))) + CTH12* CTH23* (-2.* m1 + 2.* m2)* (np.cos(
+a)+1j*np.sin(a))* STH12* STH13* STH23 -  (np.cos(2*a)+1j*np.sin(2*a))* En* VCC), CTH13* Enodwr* (np.cos(a)-1j*np.sin(a))* (CTH12* 
+CTH23* ( m1 -  m2)* (np.cos(a)+1j*np.sin(a))* STH12* + angle4* (Ensquare + m1)* STH13* STH23* + (angle1* m2 + m3 *(-0.5 - 
+0.5* (np.cos(2*a)+1j*np.sin(2*a))) + Ensquare* (-0.5 + 1.* angle1 - 0.5* (np.cos(2*a)+1j*np.sin(2*a))))* STH13* STH23), (0. - 0.5* 1j)* CTH13* CTH23* Enodwr* (Ensquare + m3) *(-1. + 1.* (np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13, (0. - 0.866025* 1j)* 
+CTH13* CTH23* Enodwr* (Ensquare + m3)* (-1. + 1. *(np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13],
+
+[0, (0. - 0.5* 1j)*
+CTH13* CTH23* Enodwr* (Ensquare + m3)* (-1. + 1.* (np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13, (0. - 0.5* 1j)* CTH13* 
+Enodwr* (Ensquare + m3)* (-1. + 1.* (np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13* STH23, 0, CTH13* Enodwr* (np.cos(
+a)-1j*np.sin(a))* (CTH23* (angle4* m1 + angle1* m2 - 0.5* m3 + Ensquare* (-0.5 +  angle1* +  angle4* - 0.5* (
+np.cos(2*a)+1j*np.sin(2*a))) - 0.5* m3* (np.cos(2*a)+1j*np.sin(2*a))) *STH13* + CTH12* (- m1 + m2)* (np.cos(a)+1j*np.sin(a))* 
+STH12* STH23), CTH13* Enodwr* (np.cos(a)-1j*np.sin(a))* (CTH12* CTH23* ( m1 - m2)* (np.cos(a)+1j*np.sin(a))* STH12* + angle4* (
+Ensquare + m1)* STH13* STH23 + (angle1* m2 + m3* (-0.5 - 0.5* (np.cos(2*a)+1j*np.sin(2*a))) + Ensquare* (-0.5 + angle1* - 0.5*
+(np.cos(2*a)+1j*np.sin(2*a))))* STH13* STH23), Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (angle5* (angle3* (- Ensquare - m3) + 
+angle6* ( Ensquare + m3))* (np.cos(2*a)+1j*np.sin(2*a)) + angle1* (angle6* (angle2* (Ensquare + m2) + (-Ensquare -  
+m1)* (np.cos(2*a)+1j*np.sin(2*a))) + angle3* (angle2* (- Ensquare - m2) + ( Ensquare + m1)* (np.cos(2*a)+1j*np.sin(2*a)))) 
++ angle4* (angle6* (angle2* ( Ensquare +  m1) + (-Ensquare -  m2)* (np.cos(2*a)+1j*np.sin(2*a))) + angle3* (angle2* (- 
+Ensquare -  m1) + ( Ensquare + m2)* (np.cos(2*a)+1j*np.sin(2*a)))) + CTH12* CTH23* (-4.* m1 + 4.* m2)* (np.cos(a)+1j*np.sin(a))* 
+STH12* STH13* STH23), 0, 0],
+
+[0, Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (- angle1* angle2* angle3* Ensquare - angle1* angle2* 
+angle3* m2 + angle2* Ensquare* (np.cos(2*a)+1j*np.sin(2*a)) - angle1* angle6* Ensquare* (np.cos(2*a)+1j*np.sin(2*a)) - angle1* 
+angle6* m1* (np.cos(2*a)+1j*np.sin(2*a)) + angle2* m3* (np.cos(2*a)+1j*np.sin(2*a)) + angle5* ((angle1* - angle3)* Ensquare + 
+angle1* m2 - angle3* m3)* (np.cos(2*a)+1j*np.sin(2*a)) + angle4* (angle2* angle3* (- Ensquare - m1) + angle5* (Ensquare 
++  m1)* (np.cos(2*a)+1j*np.sin(2*a)) + angle6* (-Ensquare - m2)* (np.cos(2*a)+1j*np.sin(2*a))) + CTH12* CTH23* (-2.* m1 + 2.* m2)*
+(np.cos(a)+1j*np.sin(a))* STH12* STH13* STH23 + (np.cos(2*a)+1j*np.sin(2*a))* En* VCC), Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (
+CTH12* (angle3* (m1 - m2) + angle6* (-m1 + m2)) *(np.cos(a)+1j*np.sin(a))* STH12* STH13* + angle4* CTH23* (angle2* (-1.*
+Ensquare - m1) + (1.* Ensquare + 1.* m2)* (np.cos(2*a)+1j*np.sin(2*a)))* STH23* + CTH23* (angle5* (-1.* Ensquare - 1.* m3)* (
+np.cos(2*a)+1j*np.sin(2*a)) + angle1* (angle2* (-1. *Ensquare - m2) + (1.* Ensquare + 1.* m1)* (np.cos(2*a)+1j*np.sin(2*a))))* STH23), 
+CTH13* Enodwr* (np.cos(a)-1j*np.sin(a))* (CTH23* (-angle4* m1 - angle1* m2 + 0.5* m3 + Ensquare* (0.5 - angle1* - angle4* + 0.5* (
+np.cos(2*a)+1j*np.sin(2*a))) + 0.5* m3* (np.cos(2*a)+1j*np.sin(2*a)))* STH13* + CTH12* (m1 -  m2)* (np.cos(a)+1j*np.sin(a))* 
+STH12* STH23), 0, 0, (0. - 0.5* 1j)* CTH13* CTH23* Enodwr* (Ensquare + m3)* (-1. + (np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13, CTH13* Enodwr* (np.cos(a)-1j*np.sin(a))* (CTH12* CTH23* (2.* m1 - 2.* m2)* (np.cos(a)+1j*np.sin(a))* STH12* + angle4* 
+(2.* Ensquare + 2.* m1)* STH13* STH23* + (2.* angle1* m2 + m3 *(-1. - 1.* (np.cos(2*a)+1j*np.sin(2*a))) + Ensquare* (-1. + 2.* 
+angle1 - 1.* (np.cos(2*a)+1j*np.sin(2*a))))* STH13* STH23), 0],
+
+[0, Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (CTH12* (angle3* (m1 - m2) + angle6* (- m1 +  m2)) *(np.cos(a)+1j*np.sin(a))* 
+STH12* STH13* + angle4* CTH23* (angle2* (-Ensquare - m1) + (Ensquare + m2)* (np.cos(2*a)+1j*np.sin(2*a)))* STH23* + 
+CTH23* (angle5* (-1.* Ensquare - 1.* m3)*(np.cos(2*a)+1j*np.sin(2*a)) + angle1* (angle2* (-Ensquare - m2) + ( Ensquare +  
+m1)* (np.cos(2*a)+1j*np.sin(2*a))))* STH23), Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (-1.* angle1* angle2* angle6* Ensquare -  
+angle1* angle2* angle6* m2 + 1.* angle2* Ensquare* (np.cos(2*a)+1j*np.sin(2*a)) - 1.* angle1* angle3* Ensquare* (
+np.cos(2*a)+1j*np.sin(2*a)) - 1.* angle1* angle3* m1* (np.cos(2*a)+1j*np.sin(2*a)) + angle5* (angle1* ( Ensquare +  m2) + 
+angle6* (- Ensquare - m3))* (np.cos(2*a)+1j*np.sin(2*a)) + 1.8* angle2* m3 *(np.cos(2*a)+1j*np.sin(2*a)) + angle4* (angle2* 
+angle6* (-Ensquare -  m1) + angle5* ( Ensquare + 1.* m1)* (np.cos(2*a)+1j*np.sin(2*a)) + angle3* (- Ensquare -  m2)* (
+np.cos(2*a)+1j*np.sin(2*a))) + CTH12* CTH23* (2.* m1 - 2.* m2)* (np.cos(a)+1j*np.sin(a))* STH12* STH13* STH23 + 1.* (
+np.cos(2*a)+1j*np.sin(2*a))* En *VCC), CTH13* Enodwr* (np.cos(a)-1j*np.sin(a))* (CTH12* CTH23* (- m1 +  m2)* (np.cos(a)+1j*np.sin(
+a))* STH12* + angle4* (-Ensquare - m1)* STH13* STH23* + (- angle1* m2 + m3 *(0.5 + 0.5* (np.cos(2*a)+1j*np.sin(2*a))) + 
+Ensquare* (0.5 - angle1* + 0.5* (np.cos(2*a)+1j*np.sin(2*a))))* STH13* STH23), 0, 0, (0. + 0.5* 1j)* CTH13* Enodwr* (Ensquare + m3)* 
+(-1. +  (np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13* STH23, CTH13* Enodwr* (np.cos(a)-1j*np.sin(a))*(CTH23* 
+(angle4* m1 + angle1* m2 - 0.5* m3 + Ensquare* (-0.5 + angle1 + angle4 - 0.5* (np.cos(2*a)+1j*np.sin(2*a))) - 0.5 *m3* (
+np.cos(2*a)+1j*np.sin(2*a)))* STH13* + CTH12* (-1.* m1 + 1.* m2)* (np.cos(a)+1j*np.sin(a))* STH12* STH23), CTH13* Enodwr* (np.cos(
+a)-1j*np.sin(a))* (CTH23* (1.73205* angle4* m1 + 1.73205* angle1* m2 - 0.866025* m3 + Ensquare* (-0.866025 + 1.73205* angle1 + 1.73205 *
+angle4 - 0.866025* (np.cos(2*a)+1j*np.sin(2*a))) - 0.866025* m3* (np.cos(2*a)+1j*np.sin(2*a)))* STH13 + CTH12* (-1.73205* m1 + 
+1.73205* m2)* (np.cos(a)+1j*np.sin(a))* STH12* STH23)],
+
+[0, CTH13* Enodwr* (np.cos(a)-1j*np.sin(a))* (CTH23* (1.* angle4* m1 + 1.* angle1* m2 - 0.5* m3 + Ensquare* (-0.5 + 1.*angle1 + 1.* 
+angle4 - 0.5* (np.cos(2*a)+1j*np.sin(2*a))) - 0.5* m3 *(np.cos(2*a)+1j*np.sin(2*a)))* STH13* + CTH12* (-m1 + m2)* (np.cos(
+a)+1j*np.sin(a))* STH12* STH23), CTH13* Enodwr* (np.cos(a)-1j*np.sin(a))* (CTH12* CTH23* (-1.* m1 + 1. *m2)* (np.cos(a)+1j*np.sin(a))* 
+STH12* + angle4* (-1.* Ensquare - 1.* m1)* STH13* STH23 + (-1.* angle1* m2 + m3* (0.5 + 0.5* (np.cos(2*a)+1j*np.sin(2*a))) + Ensquare* (
+0.5 - 1. *angle1* + 0.5* (np.cos(2*a)+1j*np.sin(2*a))))* STH13* STH23), Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (angle5* (angle6* (-1.*
+Ensquare - 1.* m3) + angle3* (1.* Ensquare + 1.* m3))* (np.cos(2*a)+1j*np.sin(2*a)) + angle1* (angle3* (angle2* (1.* Ensquare + 1.* 
+m2) + (-1.* Ensquare - 1. *m1) *(np.cos(2*a)+1j*np.sin(2*a))) + angle6* (angle2* (-1. *Ensquare - 1.* m2) + (1.* Ensquare + 1.* m1)* (
+np.cos(2*a)+1j*np.sin(2*a)))) + angle4* (angle3* (angle2* (1. *Ensquare + 1. *m1) + (-1.* Ensquare - 1. *m2)* (
+np.cos(2*a)+1j*np.sin(2*a))) + angle6* (angle2* (-1.* Ensquare - 1.* m1) + (1.* Ensquare + 1.* m2)* (np.cos(2*a)+1j*np.sin(2*a)))) + 
+CTH12* CTH23* (4.* m1 - 4.* m2)*(np.cos(a)+1j*np.sin(a))* STH12* STH13* STH23), (0. + 0.5* 1j)* CTH13* CTH23* Enodwr* (Ensquare + m3)* 
+(-1. + 1. *(np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13, (0. - 0.5* 1j) *CTH13* Enodwr* (Ensquare + m3)* (-1. + 1. *(
+np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13* STH23, 0, Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (CTH12* (angle6* 
+(1.* m1 - 1.* m2) + angle3* (-1. *m1 + 1. *m2)) *(np.cos(a)+1j*np.sin(a))* STH12* STH13* + angle4* CTH23* (angle2* (1.* Ensquare + 1.* 
+m1) + (-1.* Ensquare - 1.* m2)* (np.cos(2*a)+1j*np.sin(2*a)))* STH23 + CTH23* (angle5* (1.* Ensquare + 1.* m3)* (
+np.cos(2*a)+1j*np.sin(2*a)) + angle1* (angle2* (1.* Ensquare + 1.* m2) + (-1.* Ensquare - 1.* m1)* (np.cos(2*a)+1j*np.sin(2*a)))) *
+STH23), Enodwr* (np.cos(2*a)-1j*np.sin(2*a)) *(CTH12* (angle3* (1.73205* m1 - 1.73205* m2) + angle6* (-1.73205* m1 + 1.73205* m2)) *(
+np.cos(a)+1j*np.sin(a))* STH12* STH13 + angle4* CTH23* (angle2* (-1.73205* Ensquare - 1.73205* m1) + (1.73205* Ensquare + 1.73205* 
+m2)* (
+np.cos(2*a)+1j*np.sin(2*a))) *STH23* + CTH23* (angle5* (-1.73205* Ensquare - 1.73205* m3)*(np.cos(2*a)+1j*np.sin(2*a)) + angle1* (
+angle2* (-1.73205* Ensquare - 1.73205* m2) + (1.73205* Ensquare + 1.73205* m1)* (np.cos(2*a)+1j*np.sin(2*a))))* STH23)],
+
+
+[0, (0. + 1.* 1j)* CTH13* Enodwr* (Ensquare + m3)* (-1. + 1.* (np.cos(2*a)+1j*np.sin(2*a)))* (np.cos(a)-1j*np.sin(a))* STH13* STH23, (0.
++ 0.5 *1j)* CTH13* CTH23* Enodwr* (Ensquare + m3)* (-1. + 1.* (np.cos(2*a)+1j*np.sin(2*a))) *(np.cos(a)-1j*np.sin(a)) *STH13, 0, CTH13* 
+Enodwr* (np.cos(a)-1j*np.sin(a)) *(CTH12* CTH23* (-2.* m1 + 2. *m2)* (np.cos(a)+1j*np.sin(a))* STH12* + angle4* (-2.* Ensquare - 2. *m1) *
+STH13* STH23 + (-2.* angle1* m2 + m3* (1. + 1.* (np.cos(2*a)+1j*np.sin(2*a))) + Ensquare *(1. - 2.* angle1* + 1. *(
+np.cos(2*a)+1j*np.sin(2*a))))* STH13* STH23), CTH13* Enodwr* (np.cos(a)-1j*np.sin(a)) *(CTH23* (-1.*angle4* m1 - 1. *angle1* m2 + 
+0.5* 
+m3 + Ensquare* (0.5 - 1.* angle1 - 1. *angle4 + 0.5* (np.cos(2*a)+1j*np.sin(2*a))) + 0.5* m3*(np.cos(2*a)+1j*np.sin(2*a)))* STH13 + 
+CTH12* (1.*m1 - 1.* m2)* (np.cos(a)+1j*np.sin(a))* STH12* STH23), Enodwr* (np.cos(2*a)-1j*np.sin(2*a)) *(CTH12* (angle3* (1.* m1 - 1.* 
+m2) + angle6* (-1.* m1 + 1.* m2))* (np.cos(a)+1j*np.sin(a))* STH12* STH13* + angle4* CTH23* (angle2* (-1.* Ensquare - 1.* m1) + (1.*
+Ensquare + 1.* m2)* (np.cos(2*a)+1j*np.sin(2*a)))*STH23* + CTH23* (angle5* (-1.* Ensquare - 1. *m3)* (np.cos(2*a)+1j*np.sin(2*a)) + 
+angle1* (angle2* (-1.* Ensquare - 1.* m2) + (1. *Ensquare + 1.*m1)* (np.cos(2*a)+1j*np.sin(2*a))))* STH23), 0, 0],
+
+[0, 0, (0. + 0.866025* 1j)* CTH13* CTH23* Enodwr* (Ensquare + m3)* (-1. + 1.* (np.cos(2*a)+1j*np.sin(2*a))) *(np.cos(a)-1j*np.sin(a))* 
+STH13, 0, 0, CTH13* Enodwr* (np.cos(a)-1j*np.sin(a))* (CTH23* (-1.73205* angle4* m1 - 1.73205* angle1* m2 + 0.866025* m3 + Ensquare* (
+0.866025 - 1.732058* angle1 - 1.73205* angle4 + 0.866025* (np.cos(2*a)+1j*np.sin(2*a))) + 0.866025* m3* (np.cos(2*a)+1j*np.sin(2*a))) *
+STH13 + CTH12* (1.732058* m1 - 1.73205* m2)* (np.cos(a)+1j*np.sin(a))* STH12* STH23), Enodwr* (np.cos(2*a)-1j*np.sin(2*a))* (CTH12* (
+angle6* (1.73205* m1 - 1.73205* m2) + angle3* (-1.73205 *m1 + 1.73205* m2)) *(np.cos(a)+1j*np.sin(a))* STH12* STH13* + angle4* CTH23* (
+angle2* (1.73205* Ensquare + 1.73205* m1) + (-1.73205* Ensquare - 1.73205* m2)* (np.cos(2*a)+1j*np.sin(2*a)))* STH23 + CTH23* (angle5* 
+(1.73205* Ensquare + 1.73205* m3)* (np.cos(2*a)+1j*np.sin(2*a)) + angle1* (angle2* (1.73205* Ensquare + 1.73205* m2) + (-1.73205* 
+Ensquare - 1.73205* m1)* (np.cos(2*a)+1j*np.sin(2*a))))* STH23), 0, 0]]
+
